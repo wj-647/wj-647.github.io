@@ -17,5 +17,5 @@ y1 = np.sin(x1)                         #写定函数
 plt.subplot(1,2,2)                      #两个图像的第二个
 # plt.title(u"测试2") #注意：在前面加一个u
 plt.title(r'$f(x)=sin(\omega x), \omega = \frac{3}{8} \pi$')   #题目
-plt.plot(x1, y1)                                               #表示x1，y1坐标轴
+plt.plot(x, y1)                                               #表示x1，y1坐标轴
 plt.show()                                                     #打印图像
